@@ -21,7 +21,7 @@ for file_name in list_of_files:
            print("moving "+file_name+".....")
            shutil.move(path1,path3)
        else:
-           os.makekdirs(path2)
+           os.mkdirs(path2)
            print("moving"+file_name+".....")
            shutil.move(path1,path3)
 
